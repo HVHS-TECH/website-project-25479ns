@@ -9,7 +9,7 @@ overflow: hidden;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .topnav a {
@@ -25,3 +25,43 @@ overflow: hidden;
   background-color: #436dac;
   color: rgb(245, 245, 245);
 }
+
+  h3 {
+    color: rgb(206, 23, 23);
+  }
+
+.promo-banner {
+  background-color: #4a6fb3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.banner-content {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.left-arrow { left: 10px; }
+.right-arrow { right: 10px; }
+
+<button class="button button1">2px</button>
+<button class="button button2">4px</button>
+<button class="button button3">8px</button>
+<button class="button button4">12px</button>
+<button class="button button5">50%</button>
