@@ -70,4 +70,14 @@ overflow: hidden;
 
 h4 {
     color: rgb(255, 255, 255);
+}
+
+.container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .text {
+      max-width: 400px;
   }
