@@ -111,4 +111,7 @@ h4 {
   flex-direction: column; /* THIS stacks items vertically */
   align-items: center;
 }
-  
+
+p {
+  color: white;
+}
