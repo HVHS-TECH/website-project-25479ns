@@ -106,10 +106,9 @@ h4 {
   padding: 15px;
 }
 
-<style>
-  img {
-    display: block;
-    margin-bottom: 10px;
-  }
-
+.container {
+  display: flex;
+  flex-direction: column; /* THIS stacks items vertically */
+  align-items: center;
+}
   
