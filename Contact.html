@@ -8,6 +8,31 @@ body {
 
 <meta name="viewport" content=width=device-width, initial-scale=1">
 
+<h3>Contact Form</h3>
+
+<div class="container">
+<form action="/action_page.php">
+<lable for="fname">First Name</lable>
+<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+<lable for="lname">Last Name</lable>
+<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+<lable for="Region">Region</lable>
+<select id="region" name="region">
+<option value="auckland">Auckland</option>
+<option value="wellington">Wellington</option>
+<option value="hamilton">Hamilton</option>
+<option value="christchurch">Christchurch</option>
+</select>
+
+<lable for="subject">Message</lable>
+<textarea id="subject" name="subject" placeholder="Write something here.." style="height:200px">
+</textarea>
+
+<input type="submit" value="Submit">
+</form>
+</div>
 
 </style>
 </head>
