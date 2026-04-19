@@ -26,6 +26,10 @@ overflow: hidden;
   color: rgb(245, 245, 245);
 }
 
+h1 {
+  color: #ffffff;
+}
+
   h3 {
     color: rgb(250, 80, 80);
   }
